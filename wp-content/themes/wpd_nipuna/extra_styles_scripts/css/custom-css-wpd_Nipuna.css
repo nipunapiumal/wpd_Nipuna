@@ -1,0 +1,63 @@
+/*
+Slider  Styles
+*/
+
+.slider-style{
+    background-image:url('/wpd_Nipuna/wp-content/themes/wpd_nipuna/assets/imgs/slider1.jpg');
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.item{
+  padding-top: 300px;
+}
+
+.slider-sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 35px;
+  color: #fff;
+}
+.slider-title{
+  font-size: 90px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 35px;
+  color: #fff;
+  line-height: 0;
+}
+.slider-des{
+  font-size: 40px;
+  font-weight: 200;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-sub-title{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 20px;
+  }
+  .slider-title{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 23px;
+    color: #fff;
+    line-height:  75px !important;
+  }
+  .slider-style{
+    height: 700px;
+  }
+  .item{
+    padding-top: 100px;
+  }
+  .slider-des{
+    font-size: 30px;
+  }
+}

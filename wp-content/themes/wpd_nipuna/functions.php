@@ -88,7 +88,6 @@ function wpd_nipuna_setup() {
 	/**
 	 * Add support for core custom logo.
 	 *
-	 * @link https://codex.wordpress.org/Theme_Logo
 	 */
 	add_theme_support(
 		'custom-logo',
@@ -181,6 +180,7 @@ function wpd_nipuna_extra_scripts_styles() {
 	
 	wp_enqueue_style( 'wpd_nipuna-bootstrap', get_template_directory_uri() . '/extra_styles_scripts/css/bootstrap-grid.min.css', array(), _S_VERSION, 'all' );
 	wp_enqueue_style( 'wpd_nipuna-owl-carousel', get_template_directory_uri() . '/extra_styles_scripts/css/owl.carousel.css', array(), _S_VERSION, 'all' );
+	wp_enqueue_style( 'wpd_nipuna-custom-css', get_template_directory_uri() . '/extra_styles_scripts/css/custom-css-wpd_Nipuna.css', array(), _S_VERSION, 'all' );
 	
 	wp_enqueue_script( 'wpd_nipuna-jquery', get_template_directory_uri() . '/extra_styles_scripts/js/jquery-3.6.0.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'wpd_nipuna-owl-carousel-js', get_template_directory_uri() . '/extra_styles_scripts/js/owl.carousel.min.js', array(), _S_VERSION, true );
