@@ -9,7 +9,9 @@ Slider  Styles
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
+    margin-top: -55px;
+    z-index: -2; 
 }
 
 .item{
@@ -33,6 +35,11 @@ Slider  Styles
 }
 .slider-des{
   font-size: 40px;
+  font-weight: 200;
+  color: #fff;
+}
+.slider-sub-des{
+  font-size: 15px;
   font-weight: 200;
   color: #fff;
 }

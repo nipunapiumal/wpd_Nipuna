@@ -14,6 +14,8 @@ get_header();
                             <h1 class="slider-title">STAIRECASE</h1>
                             <hr>
                             <h4 class="slider-des">Devil's way but end is heaven</h4>
+                            <h5 class="slider-sub-des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at <br>
+                            The point of using Lorem Ipsum is that it has a more-or-less normal distributio</h5>
                         </div>
                         <div class="item">
                             <h1 class="slider-sub-title">DEVIL'S</h1>
