@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wpd_Nipuna' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '>8Kf0OZVnG=f_[Ni?a#|.iyC9ny76i-)Qbs__|>c!`i%,nH(LQj:0NH~N 1$1@!9' );
+define( 'SECURE_AUTH_KEY',  '@3.1vvYG{T*y=sj8pg(THp!/=>c]VkM><x=``X6%M@by~eNOaV=-B|Z$(}i^{^4$' );
+define( 'LOGGED_IN_KEY',    'f-WI_%u,{+1bR,LqM-65J]D1|%+OK&!%JLh?m__1OwJA&P~*.x;-f$6?unOUyt2H' );
+define( 'NONCE_KEY',        'pN.S1FyUpK8+a/<*G7_9P7^6FN>900c,C{{^,N;i,F2g4X] I3GPp7$~D!#3nR[ ' );
+define( 'AUTH_SALT',        'uK<Zk)t%gu:5HfFdyi_3*9,XS-Q~O/-C,xvPJBO2kj$ZI_!Jn8joD&]W%]mg.hTC' );
+define( 'SECURE_AUTH_SALT', '7)z ve6YL*M>|6daufi,Gcw*$D4_@lwHOE5,?|gpS^6M2G <-[fW=$Vnn`:PQrL!' );
+define( 'LOGGED_IN_SALT',   'v&?HD0P`9-t*{_J0%euX^h(Z,+,!:?edGG@H7CJKr{-}fbjl9^k*l$YQ~sv4c>.-' );
+define( 'NONCE_SALT',       '-}7T^g~ZF{dSCDh<5XR=IFC EL_7~O<I,x_BwGBN2Y<C]c%hUk*|%wKBSGs[Yyy_' );
 
 /**#@-*/
 
